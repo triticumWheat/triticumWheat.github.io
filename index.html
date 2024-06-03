@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>welcome to my website!</title>
+    <title>Mingyuan Sun</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<h1 style="text-align: center;">welcome to my website!</h1>
+<header>
+
+</header>
+
+<section class="main-page">
+    <div class="content">
+        <h2 class="slogan h2-full-width">「昨日まで僕は眠ってた</h2>
+        <h1 class="slogan h1-full-width"> 何も知らずにただ生きていたんだ </h1>
+        <h2 class="slogan h2-full-width">それだけなんだ」</h2>
+        <button onclick="scroll_down()" class="scroll-down-button"></button>
+    </div>
+
+</section>
+<section class="about-me">
+
+</section>
 </body>
+<script>
+    function scroll_down (){
+        window.scrollBy({
+            top: window.innerHeight,
+            left: 0,
+            behavior: "smooth"
+        })
+    }
+
+</script>
 </html>
